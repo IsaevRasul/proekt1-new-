@@ -44,6 +44,11 @@ h1 {
   display: flex;
 }
 
+.flexbox1 {
+  display: flex;
+  justify-content: center;
+}
+
 .stylep {
   color: white;
   width: 350px;
@@ -94,7 +99,7 @@ h1 {
   border-width: 5px;
   display: flex;
   flex-direction: row;
-  margin-left: 70px;
+  margin-left: 40px;
 }
 
 .container2 {
@@ -107,6 +112,8 @@ h1 {
 
 .stylep1 {
   text-align: center;
+  width: 150px;
+  margin-left: 20px;
 }
 
 .block1 {
@@ -130,6 +137,7 @@ h1 {
 .footer {
   background-color: white;
   display: flex;
+  justify-content: center;
   height: 300px;
 }
 
@@ -139,7 +147,7 @@ h1 {
   width: 650px;
   border-radius: 10px;
   padding: 10px;
-  margin-left: 150px;
+
   margin-top: 80px;
   padding-left: 80px;
 }
